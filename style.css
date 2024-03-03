@@ -1,0 +1,81 @@
+
+/* This is cover all website with the image */
+
+/*body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://content.njtransit.com/sites/default/files/homebanner/home-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+} */
+
+.hd{
+    position: relative;
+    padding: 20px;
+    margin: 15px;
+    height: 20vh;
+}
+
+#en{
+    position: relative;
+    left: 1200px;
+    bottom:30px;
+}
+
+#drop{
+    position: relative;
+    left: 978px;
+    top: 60px;
+}
+#btn{
+    position: relative;
+    height: 5vh;
+    width: 7vh;
+    margin: 10px;
+}
+
+.navMain{
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+}
+ul, li{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: solid black;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 5%;
+    padding: 5px;
+    margin: 5px;
+}
+li:hover{
+    background-color: violet;
+    border: dotted yellow;
+    border-radius: 50%;
+}
+
+
+
+.mainBox, .box{
+    border: solid black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    height: 9vh;
+    width: 10vw;
+    top: 100%;
+
+} */
+/* Pseudo Element Selector */
+/* 
+.box:hover{ 
+    border: solid black;
+}
+ */
