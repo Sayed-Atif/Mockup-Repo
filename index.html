@@ -12,13 +12,14 @@
 
     <body>
         <header class="hd">
-            <img src="https://www.njtransit.com/_nuxt/img/logo-print.5000fd4.png" id="img2" alt="logo">
+            <img src="https://www.njtransit.com/_nuxt/img/logo-print.5000fd4.png" id="img1" alt="logo">
                 <!-- <form action="" id="frm"> -->
                     <span id="en"><input type="text" placeholder="Enter Search Term"><input type="button" id="btn" value="Click"></span>
                         <!-- <span id="btn"><input type="button">Click</span> -->
                                 <!-- <button type="submit" class="btn-primary">Click</button> <br><br> -->
-                            <span id="drop"><label for="ln">Select Language:</label>
+                            <span id="drop"><label for="ln"></label>
                                 <select name="Languages" id="ln">
+                                    <option value="E">Select Language:</option>
                                     <option value="E">English</option>
                                     <option value="S">Spanish</option>
                                     <option value="D">Danish</option>
@@ -29,7 +30,6 @@
    
 
                 <nav class="navMain">
-
                     <ul>
                         <li>Services</li>
                         <li>Status</li>
@@ -38,56 +38,51 @@
                         <li>Maps</li>
                         <li>Police</li>
                         <li>Accessibility</li>
-                        <li>About Us</li>
+                        <li>About</li>
                         <li>Careers</li>
                         <li>Contact</li>
                     </ul>
                 </nav>
 
-                <section class="sec1">
+                <div class="sec1">
                     <img src="https://content.njtransit.com/sites/default/files/homebanner/home-banner.jpg" alt="" id="img2">
-                    <div class="nv1">
-                        <h4>Plan Your Trip</h1>
-                        <h5>System Status</h3>
-                        <h5>Departure</h3>
-                        <h5>MyBus</h3>
-                    </div>
-                </section>
+                </div>
 
-                   
+                <div class="nv1">
+                    <h4 id="hd4">Plan Your Trip</h4>
+                    <h5 id="hd2">System Status</h5>
+                    <h5 id="hd2">Departure</h5>
+                    <h5 id="hd2">MyBus</h5>
+                 </div>
 
-                    <div class="nv">
                         
-                        <div class="nv2">
+                        <section class="sec2">
                             <form action="">
-                                <label for="name">Origin:</label>
-                                <input type="text" name="Origin" placeholder="Full Address, Landmark or Station Name"><br><br>
-                                <label for="destination">Destination:</label>
-                                <input type="text" name="destination" placeholder="Full Address, Landmark or Station Name">
-                                <select name="Dep/Arr" id="DA">
-                                <option value="D">Departure:</option>
-                                <option value="A">Arrival:</option>
-                                </select>
-                                <input type="date"> 
-                                <input type="time">
-                                <input type="checkbox"> 
-                                <a href="https://www.njtransit.com/accessibility" target="_blank">Access Link</a>
-                                <button type="button" disabled>Plan Your Trip</button> <br> <br>
+                                <span id="sp1">Origin <br> <input type="text" name="origin" placeholder="Full Address, Landmark or Station Name" height="50%"></span>
+                                <span id="sp1">Destination:<input type="text" name="destination" placeholder="Full Address, Landmark or Station Name"></span>
+                                <span id="sp1"><select name="Dropdown" id="DA">
+                                    <option value="D">Departure:</option>
+                                    <option value="A">Arrival:</option>
+                                    </select>
+                                </span> 
+                                <span id="sp1"></span><input type="date"> 
+                                <span id="sp1"></span><input type="time">
+                                <span id="sp1"></span><input type="checkbox">
+                                <span id="sp1"><a href="https://www.njtransit.com/accessibility" target="_blank">Access Link</a></span>
+                                <span id="sp1"><button type="button" disabled>Plan Your Trip</button></span>
                             </form>
-                        </div>
-                    </div>
-            </div> 
-
-
+                        </section>
+            
 
             <div class="mainBox">
-                <h3>Have you saved money with any of the following NJ TRANSIT discount programs?</h3>
+                <!-- <h3 id="h">Have you saved money with any of the following NJ TRANSIT discount programs?</h3> -->
                 <div class="box">FLEXPASS</div>
                 <div class="box">Student Pass</div>
                 <div class="box">Reduced Fare</div>
                 <div class="box">Special Promotion</div>
                 <div class="box">Not Yet</div>
             </div>
+
 
 
         

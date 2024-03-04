@@ -11,11 +11,17 @@
     z-index: -1;
 } */
 
+body{
+    background-color: antiquewhite;
+}
+
 .hd{
     position: relative;
     padding: 20px;
     margin: 15px;
-    height: 20vh;
+    height: 15vh;
+    width: 248vh;
+    background-color: #20399D;
 }
 
 #en{
@@ -27,12 +33,12 @@
 #drop{
     position: relative;
     left: 978px;
-    top: 60px;
+    top: 30px;
 }
 #btn{
     position: relative;
-    height: 5vh;
-    width: 7vh;
+    height: 3vh;
+    width: 5vh;
     margin: 10px;
 }
 
@@ -49,9 +55,8 @@ ul, li{
     color: solid black;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
-    left: 5%;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 25px;
 }
 li:hover{
     background-color: violet;
@@ -59,23 +64,85 @@ li:hover{
     border-radius: 50%;
 }
 
+#img2{
+    position: relative;
+    border: solid black 3px;
+    height: 50vh;
+    width: 250vh;
+}
 
 
-.mainBox, .box{
-    border: solid black;
+.sec2{
+    position: relative;
+    /* padding: 10px;
+    margin: 10px; */
+    /* border: solid pink 3px; */
+    justify-content: space-between;
+    /* top: 400px; */
+    left: 20%;
+    bottom: 360px;
+}
+
+
+#hd2, #hd4{
+    position: relative;
+    border: solid gray 3px;
+    color: white;
+    height: 11vh;
+    width: 22vh;
+    background-color: #20399D;
+    top:15px;
+}
+
+h4{
+    color: black;
+    background-color: white;
+}
+
+.nv1{
+    position: relative;
+    bottom: 100%;
+
+
+
+}
+
+
+
+
+#sp1{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    bottom: 16px;
+}
+
+.mainBox{
+    /* border: solid blueviolet 3px; */
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin: 10px;
-    height: 9vh;
+    /* padding: 25px;
+    margin: 20px;
+    height: 5vh;
     width: 10vw;
-    top: 100%;
+    top: 100%; */
+    /* bottom: 1000px; */
+} 
 
-} */
-/* Pseudo Element Selector */
-/* 
-.box:hover{ 
-    border: solid black;
+.box{
+    border: solid blueviolet 3px;
+    /* padding:10px;
+    margin: 5px; */
+    height: 7vh;
+    width: 8vw;
+    /* align-items: center; */
+    /* top:100%; */
+    right: 45%;
 }
- */
+
+.main{
+    border: solid black 3px;
+    
+}
